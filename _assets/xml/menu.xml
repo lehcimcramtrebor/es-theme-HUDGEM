@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="menu">
+
+<menuText name="menutitle">
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.035</fontSize>
+<color>202020</color>
+</menuText>
+
+<menuText name="menufooter">
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.022</fontSize>
+<color>dddddd</color>
+</menuText>
+
+<menuText name="menutext">
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.032</fontSize>
+<color>121212</color>
+<separatorColor>303030</separatorColor>
+<selectorColor>202020</selectorColor>
+<selectedColor>dddddd</selectedColor>		
+</menuText>
+	
+<menuTextSmall name="menutextsmall">
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.025</fontSize>
+<color>dddddd</color>
+</menuTextSmall>
+
+<menuBackground name="menubg">
+<color>d7d4cccc</color>
+<cornerSize>16 16</cornerSize>
+</menuBackground>
+
+<menuGroup name="menugroup">
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.032</fontSize>
+<color>dddddd</color>
+<separatorColor>505050</separatorColor>
+<backgroundColor>${colorset}33</backgroundColor>
+<lineSpacing>1.2</lineSpacing>
+</menuGroup>	
+
+</view>
+
+</theme>

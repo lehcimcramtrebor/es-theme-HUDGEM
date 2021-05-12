@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+<sound name="bgsound">
+<path>./_assets/customMusics/${system.theme}.mp3</path>
+<path>./_assets/customMusics/${system.theme}.ogg</path>
+</sound>
+
+<video name="staticBackgroundVideo">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./_assets/background.mp4</path>
+<color>${colorset}bf</color>
+<zIndex>1</zIndex>
+<audio>false</audio>
+</video>
+	
+<carousel name="systemcarousel">
+<type>horizontal</type>      
+<size>1 0.2</size>
+<pos>0 0.65</pos>
+<logoAlignment>center</logoAlignment>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<gradientType>vertical</gradientType>
+<logoScale>2</logoScale>
+<logoSize>0.15 0.09</logoSize>
+<zIndex>10000</zIndex>
+<defaultTransition>instant</defaultTransition>
+</carousel>
+
+<image name="backCarouselUp" extra="true">
+<path>./_assets/white.png</path>
+<zIndex>9997</zIndex>
+<size>1 0.015</size>
+<origin>0 1</origin>
+<pos>0 0.65</pos>
+<color>00000000</color>
+<colorEnd>00000099</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<image name="backCarouselcenter" extra="true">
+<path>./_assets/white.png</path>
+<zIndex>9997</zIndex>
+<size>1 0.2</size>
+<pos>0 0.65</pos>
+<color>00000099</color>
+<colorEnd>00000099</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<image name="backCarouselDown" extra="true">
+<path>./_assets/white.png</path>
+<zIndex>9997</zIndex>
+<size>1 0.015</size>
+<pos>0 0.85</pos>
+<color>00000099</color>
+<colorEnd>00000000</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<image name="backCarouselLeft" extra="true">
+<path>./_assets/white.png</path>
+<zIndex>9998</zIndex>
+<size>0.5 0.2</size>
+<pos>0 0.65</pos>
+<color>ffffff00</color>
+<colorEnd>ffffff99</colorEnd>
+<gradientType>horizontal</gradientType>
+</image>
+
+<image name="backCarouselRight" extra="true">
+<path>./_assets/white.png</path>
+<zIndex>9998</zIndex>
+<size>0.5 0.2</size>
+<pos>0.5 0.65</pos>
+<color>ffffff99</color>
+<colorEnd>ffffff00</colorEnd>
+<gradientType>horizontal</gradientType>
+</image>
+
+<image name="backCarouselLineUp" extra="true">
+<path>./_assets/white.png</path>
+<zIndex>9999</zIndex>
+<size>1 0.005</size>
+<origin>0 0</origin>
+<pos>0 0.65</pos>
+<color>000000</color>
+<colorEnd>00000000</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<image name="backCarouselLineDown" extra="true">
+<path>./_assets/white.png</path>
+<zIndex>9999</zIndex>
+<size>1 0.005</size>
+<origin>0 1</origin>
+<pos>0 0.85</pos>
+<color>00000000</color>
+<colorEnd>000000</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<image name="backCarouselShadow" extra="true">
+<path>./_assets/white.png</path>
+<zIndex>9996</zIndex>
+<size>1 0.025</size>
+<pos>0 0.85</pos>
+<color>00000099</color>
+<colorEnd>00000000</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<text name="systemInfo">
+<zIndex>200</zIndex>
+<backgroundColor>00000000</backgroundColor>
+<size>1 0.03</size>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<color>dddddd</color>
+<glowSize>2</glowSize>
+<glowColor>00000099</glowColor>
+<glowOffset>0</glowOffset>
+<pos>0 0.9</pos>
+</text>
+
+<image name="logo">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/logos/${system.theme}.png</path>
+<path>./_assets/logos/${system.theme}.svg</path>
+<path>./_assets/logos/${system.theme}-${lang}.png</path>
+<path>./_assets/logos/${system.theme}-${lang}.svg</path>
+<scale>0.5</scale>
+<storyboard event="activate">
+<animation property="scale" from="0.5" to="1" duration="250" mode="EaseOut"/>
+<animation property="opacity" from="1" to="1" duration="1" mode="Linear"/>
+<animation property="origin" from="0.5 0.5" to="0.55 0.5" begin="50" duration="125" mode="EaseOut"/>
+<animation property="origin" from="0.55 0.5" to="0.5 0.5" begin="175" duration="500" autoreverse="true" repeat="1" mode="EaseInOut"/>
+</storyboard>
+<storyboard event="scroll">
+<animation property="scale" from="0.5" to="0.5" duration="1" mode="EaseOut"/>
+<animation property="opacity" from="1" to="1" duration="1" mode="Linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="scale" from="1" to="0.5" duration="1" mode="EaseOut"/>
+<animation property="opacity" from="1" to="1" duration="1" mode="Linear"/>
+</storyboard>
+</image>
+
+<image name="logo" region="us">
+<path>./_assets/logos/us/${system.theme}.png</path>
+<path>./_assets/logos/us/${system.theme}.svg</path>
+</image>
+
+<image name="logo" region="jp">
+<path>./_assets/logos/jp/${system.theme}.png</path>
+<path>./_assets/logos/jp/${system.theme}.svg</path>
+</image>
+
+<image name="illustrations" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/illustrations/${system.theme}.png</path>
+<path>./_assets/illustrations/${system.theme}.svg</path>
+<path>./_assets/illustrations/${system.theme}-${lang}.png</path>
+<path>./_assets/illustrations/${system.theme}-${lang}.svg</path>
+<zIndex>10000</zIndex>
+<origin>0.5 0.5</origin>
+<pos>0.5 0.4</pos>
+<maxSize>0.3 0.3</maxSize>
+<storyboard>
+<animation property="offsetX" to="-0.2" duration="1000" mode="EaseOut" begin="750"/>
+</storyboard>
+</image>
+
+<image name="illustrations" region="us" extra="true">
+<path>./_assets/illustrations/us/${system.theme}.png</path>
+<path>./_assets/illustrations/us/${system.theme}.svg</path>
+</image>
+
+<image name="illustrations" region="jp" extra="true">
+<path>./_assets/illustrations/jp/${system.theme}.png</path>
+<path>./_assets/illustrations/jp/${system.theme}.svg</path>
+</image>
+
+
+<image name="hud" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/hud.png</path>
+<zIndex>9995</zIndex>
+<size>0.4 0.4575</size>
+<origin>0.495 0.4925</origin>
+<pos>0.7 0.35</pos>
+<color>${colorset}</color>
+</image>
+
+<image name="hudBack" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/white.png</path>
+<zIndex>9980</zIndex>
+<size>0.3275 0.3275</size>
+<origin>0.5 0.5</origin>
+<pos>0.7 0.35</pos>
+<color>000000</color>
+</image>
+
+<video name="randomVideo" extra="true">
+<path>{random}</path>
+<path>${randomVideo.path}${system.theme}.mp4</path>
+<size>0.3275 0.3275</size>
+<origin>0.5 0.5</origin>
+<pos>0.7 0.35</pos>
+<audio>${randomVideo.audio}</audio>
+<delay>0</delay>
+<effect>none</effect>
+<zIndex>9990</zIndex>
+</video>
+
+<control name="randomVideo,hudBack,hud">
+<storyboard>
+<animation property="opacity" from="0" to="0" duration="1200" mode="linear" begin="0"/>
+<animation property="opacity" from="0" to="1" duration="550" mode="linear" begin="1200"/>
+</storyboard>
+</control>
+
+</view>
+
+</theme>

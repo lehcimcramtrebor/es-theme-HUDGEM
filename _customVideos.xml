@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!--------------------------------------------------->
+
+<!-- Enter the relative path of your custom videos -->
+
+
+<randomVideo.path>./_assets/customVideos/</randomVideo.path>
+
+
+<!-- active or desactive audio for custom videos ( "true" of "false" ) -->
+
+
+<randomVideo.audio>true</randomVideo.audio>
+
+<!--------------------------------------------------->
+
+
+
+
+</variables></theme>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+	
+<view name="basic">
+
+<image name="hud" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/hud.png</path>
+<zIndex>150</zIndex>
+<size>0.8 0.915</size>
+<origin>0.495 0.4925</origin>
+<pos>0.5 0.5</pos>
+<color>${colorset}</color>
+</image>
+
+<image name="hudBack" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/white.png</path>
+<zIndex>100</zIndex>
+<size>0.655 0.655</size>
+<origin>0.5 0.5</origin>
+<pos>0.5 0.5</pos>
+<color>000000</color>
+<colorEnd>00000099</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<textlist name="gamelist">
+<size>0.655 0.655</size>
+<origin>0.5 0.5</origin>
+<pos>0.5 0.5</pos>
+<selectorImagePath>./_assets/selector.png</selectorImagePath>
+<primaryColor>098009</primaryColor>
+<selectedColor>dddddd</selectedColor>
+<secondaryColor>090909</secondaryColor>
+<selectorColor>33333399</selectorColor>
+<selectorColor>${colorset}</selectorColor>	  		
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.0335</fontSize>
+<alignment>left</alignment>
+<horizontalMargin>0.025</horizontalMargin>
+<forceUppercase>false</forceUppercase>
+<scrollSound>./_assets/scrollg.wav</scrollSound>
+<zIndex>110</zIndex>
+<lines>12</lines>
+</textlist>
+
+<image name="art01,art01a" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/hud.png</path>
+<zIndex>100</zIndex>
+<maxSize>0.2 99</maxSize>
+<origin>0.5 0.5</origin>
+<pos>0.7 0.4</pos>
+<color>${colorset}</color>
+</image>
+
+<image name="art01" extra="true">
+<path>./_assets/art01.png</path>
+<zIndex>105</zIndex>
+</image>
+
+<image name="art01a" extra="true">
+<path>./_assets/art01a.png</path>
+<zIndex>103</zIndex>
+<storyboard>
+<animation property="rotation" from="360" duration="10000" repeat="forever" mode="linear" />
+</storyboard>
+</image>
+
+<video name="code" extra="true">
+<size>0.655 0.655</size>
+<origin>0.5 0.5</origin>
+<pos>0.5 0.5</pos>
+<path>./_assets/code.mp4</path>
+<color>${colorset}4d</color>
+<zIndex>90</zIndex>
+<delay>0</delay>
+<audio>false</audio>
+</video>
+
+</view>
+
+</theme>

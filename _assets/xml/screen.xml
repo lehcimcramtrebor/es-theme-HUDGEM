@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="screen">
+
+<text name="clock">
+<color>00000000</color>
+</text>	
+
+<controllerActivity name="controllerActivity">
+<pos>0.002 0</pos>
+<size>0.065 0.018</size>
+<itemSpacing>0.003</itemSpacing>
+<imagePath>./_assets/gamepad.svg</imagePath>
+<color>121212fc</color>
+<activityColor>12121266</activityColor>
+<hotkeyColor>125012</hotkeyColor>
+</controllerActivity>
+
+<controllerActivity name="controllerActivity">
+<color>fffffffc</color>
+</controllerActivity>
+
+<batteryIndicator name="batteryIndicator">
+<pos>0.98 0</pos>
+<size>0.018 0.018</size>
+<incharge>./_assets/battery/incharge.svg</incharge>
+<full>./_assets/battery/full.svg</full>
+<at75>./_assets/battery/75.svg</at75>
+<at50>./_assets/battery/50.svg</at50>
+<at25>./_assets/battery/25.svg</at25>
+<empty>./_assets/battery/empty.svg</empty>
+<color>121212fc</color>
+</batteryIndicator>
+
+<batteryIndicator name="batteryIndicator">
+<color>fffffffc</color>
+</batteryIndicator>
+
+<image name="scanlines" extra="true">
+<size>1 1</size>
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
+<zIndex>6000</zIndex>
+<tile>true</tile>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:scanlines">
+<path>./_assets/scanlines.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:scanlinesFine">
+<path>./_assets/scanlinesFine.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:scanlinesVertical">
+<path>./_assets/scanlinesVertical.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:scanlinesVerticalFine">
+<path>./_assets/scanlinesVerticalFine.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:crt">
+<path>./_assets/crt.png</path>
+<color>ffffff90</color>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:phosphore">
+<path>./_assets/phosphore.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:phosphorePlus">
+<path>./_assets/phosphorePlus.png</path>
+</image>
+	
+</view>
+
+</theme>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+	
+<view name="system">
+
+<text name="systemText" extra="true">
+<origin>1 1</origin>
+<color>dddddd</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<alignment>right</alignment>
+<zIndex>500</zIndex>
+<pos>0.995 0.99</pos>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextFull">
+<text>${label.custom}
+${lang.manufacturer}: ${system.manufacturer}
+${lang.releasedYear}: ${system.releaseYear}</text>
+<size>0.5 0.085</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextStandard">
+<text>
+${lang.manufacturer}: ${system.manufacturer}
+${lang.releasedYear}: ${system.releaseYear}</text>
+<size>0.5 0.085</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextFullCheevos">
+<text>${lang.retroachievements}: ${cheevos.username}
+${lang.manufacturer}: ${system.manufacturer}
+${lang.releasedYear}: ${system.releaseYear}</text>
+<text ifCheevos="false">${lang.retroachievements} ${lang.cheevosFalse}
+${lang.manufacturer}: ${system.fullName}
+${lang.releasedYear}: ${system.releaseYear}</text>
+<size>0.5 0.085</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextLabel">
+<text>${label.custom}</text>
+<size>0.5 0.03</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextCheevos">
+<text>${cheevos.username}</text>
+<size>0.5 0.03</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:justManufacturer">
+<text>${system.manufacturer}</text>
+<size>0.5 0.03</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:justYear">
+<text>${system.releaseYearOrNull}</text>
+<size>0.5 0.03</size>
+</text>
+
+</view>
+
+</theme>
