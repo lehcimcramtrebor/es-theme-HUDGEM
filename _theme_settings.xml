@@ -4,13 +4,27 @@
 
 <!--------------------------------------------------->
 
+
+<!-- Enter the default Region of your theme -->
+
+<defineDefault region="eu"></defineDefault>
+
+
+<!-- Enter in one line the label you want, for example: <label.custom>Mike's Machine</label.custom> and it will display in bottom right with manufacturers infos -->
+
+
+<label.custom>customize your label</label.custom>
+
+
+
 <!-- Enter the relative path of your custom videos -->
 
 
 <randomVideo.path>./_assets/customVideos/</randomVideo.path>
 
 
-<!-- active or desactive audio for custom videos ( "true" of "false" ) -->
+
+<!-- active or desactive audio for videos ( "true" of "false" ) -->
 
 
 <randomVideo.audio>true</randomVideo.audio>

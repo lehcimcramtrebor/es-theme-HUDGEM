@@ -10,142 +10,8 @@ author: Lehcim Cram Trebor
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
-<variables>
-
-<defineDefault region="eu"></defineDefault>
-
-<lang.yes>yes</lang.yes>
-<lang.yes lang="fr">oui</lang.yes>
-
-<lang.no>no</lang.no>
-<lang.no lang="fr">non</lang.no>
-
-
-<lang.staticEffect>effect • choose</lang.staticEffect>
-<lang.staticEffect lang="fr">effet • choisir le type</lang.staticEffect>
-
-<lang.staticEffectApply>effect • applies</lang.staticEffectApply>
-<lang.staticEffectApply lang="fr">effet • appliquer</lang.staticEffectApply>
-
-<lang.scanlines>scanlines</lang.scanlines>
-<lang.scanlines lang="fr">balayage</lang.scanlines>
-
-<lang.scanlinesFine>scanlines fine</lang.scanlinesFine>
-<lang.scanlinesFine lang="fr">balayage fin</lang.scanlinesFine>
-
-<lang.scanlinesVertical>vertical scanlines</lang.scanlinesVertical>
-<lang.scanlinesVertical lang="fr">balayage vertical</lang.scanlinesVertical>
-
-<lang.scanlinesVerticalFine>vertical scanlines fine</lang.scanlinesVerticalFine>
-<lang.scanlinesVerticalFine lang="fr">balayage vertical fin</lang.scanlinesVerticalFine>
-
-<lang.crt>crt screen</lang.crt>
-<lang.crt lang="fr">écran crt</lang.crt>
-
-<lang.phosphore>phosphore</lang.phosphore>
-<lang.phosphore lang="fr">phosphore</lang.phosphore>
-
-<lang.phosphorePlus>phosphore strong</lang.phosphorePlus>
-<lang.phosphorePlus lang="fr">phosphore plus prononcé</lang.phosphorePlus>
-
-<lang.defaultIcons>default buttons</lang.defaultIcons>
-<lang.defaultIcons lang="fr">boutons par défaut</lang.defaultIcons>
-
-<lang.arcadeIcons>arcade panel</lang.arcadeIcons>
-<lang.arcadeIcons lang="fr">panel d'arcade</lang.arcadeIcons>
-
-<lang.psxIcons>playstation controller</lang.psxIcons>
-<lang.psxIcons lang="fr">manette playstation</lang.psxIcons>
-
-<lang.snesIcons>super nes controller</lang.snesIcons>
-<lang.snesIcons region="jp">super famicom controller</lang.snesIcons>
-<lang.snesIcons lang="fr">manette super nes</lang.snesIcons>
-<lang.snesIcons region="jp" lang="fr">manette super famicom</lang.snesIcons>
-
-<lang.snesAltIcons>alternate super nes controller</lang.snesAltIcons>
-<lang.snesAltIcons region="jp">alternate super famicom controller</lang.snesAltIcons>
-<lang.snesAltIcons lang="fr">manette alternative super nes</lang.snesAltIcons>
-<lang.snesAltIcons region="jp" lang="fr">manette alternative super famicom</lang.snesAltIcons>
-
-<lang.helpIcons>buttons • icons style</lang.helpIcons>
-<lang.helpIcons lang="fr">boutons • style des icônes</lang.helpIcons>
-
-<lang.xboxIcons>xbox controller</lang.xboxIcons>
-<lang.xboxIcons lang="fr">manette xbox</lang.xboxIcons>
-
-<lang.xboxOneIcons>xbox one controller</lang.xboxOneIcons>
-<lang.xboxOneIcons lang="fr">manette xbox one</lang.xboxOneIcons>
-
-<lang.systemText>info • select</lang.systemText>
-<lang.systemText lang="fr">informations • selectionner</lang.systemText>
-
-<lang.systemTextFull>custom label, manufacturer and year</lang.systemTextFull>
-<lang.systemTextFull lang="fr">label personnalisé, fabricant et année</lang.systemTextFull>
-
-<lang.systemTextStandard>manufacturer and year</lang.systemTextStandard>
-<lang.systemTextStandard lang="fr">fabricant et année</lang.systemTextStandard>
-
-<lang.systemTextFullCheevos>retroachievements, manufacturer and year</lang.systemTextFullCheevos>
-<lang.systemTextFullCheevos lang="fr">succès rétro, fabricant et année</lang.systemTextFullCheevos>
-
-<lang.systemTextLabel>just custom label</lang.systemTextLabel>
-<lang.systemTextLabel lang="fr">juste le label personnalisé</lang.systemTextLabel>
-
-<lang.systemTextCheevos>just retroachievements pseudo (always)</lang.systemTextCheevos>
-<lang.systemTextCheevos lang="fr">juste le pseudo succès rétro (toujours)</lang.systemTextCheevos>
-
-<lang.cheevosFalse>not supported</lang.cheevosFalse>
-<lang.cheevosFalse lang="fr">non supportés</lang.cheevosFalse>
-
-<lang.manufacturer>manufacturer</lang.manufacturer>
-<lang.manufacturer lang="fr">fabricant</lang.manufacturer>
-
-<lang.releasedYear>released year</lang.releasedYear>
-<lang.releasedYear lang="fr">année de sortie</lang.releasedYear>
-
-<lang.justManufacturer>manufacturer only</lang.justManufacturer>
-<lang.justManufacturer lang="fr">juste le fabricant</lang.justManufacturer>
-
-<lang.justYear>year only (if useful)</lang.justYear>
-<lang.justYear lang="fr">juste l'année (si utile)</lang.justYear>
-
-<lang.notDisplay>not display</lang.notDisplay>
-<lang.notDisplay lang="fr">ne rien afficher</lang.notDisplay>
-
-<lang.retroachievements>retroachievements</lang.retroachievements>
-<lang.retroachievements lang="fr">succès</lang.retroachievements>
-
-
-<lang.blue>blue</lang.blue>
-<lang.blue lang="fr">bleu</lang.blue>
-
-<lang.pink>pink</lang.pink>
-<lang.pink lang="fr">rose</lang.pink>
-
-<lang.yellow>yellow</lang.yellow>
-<lang.yellow lang="fr">jaune</lang.yellow>
-
-<lang.green>green</lang.green>
-<lang.green lang="fr">vert</lang.green>
-
-<lang.orange>orange</lang.orange>
-<lang.orange lang="fr">orange</lang.orange>
-
-<lang.purple>purple</lang.purple>
-<lang.purple lang="fr">mauve</lang.purple>
-
-<lang.grey>grey</lang.grey>
-<lang.grey lang="fr">gris</lang.grey>
-
-<lang.darkGrey>darkGrey</lang.darkGrey>
-<lang.darkGrey lang="fr">gris sombre</lang.darkGrey>
-
-
-</variables>
-
-<include>./_my_label.xml</include>
-<include>./_customVideos.xml</include>
-
+<include>./_theme_settings.xml</include>
+<include>./_assets/xml/lang.xml</include>
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
@@ -183,15 +49,15 @@ author: Lehcim Cram Trebor
 
 
 <subset name="colorset" displayName="${lang.colorset}">
-<include name="blue" displayName="${lang.blue}">./_assets/colorset/blue.xml</include>
-<include name="ocean" displayName="${lang.ocean}">./_assets/colorset/ocean.xml</include>
-<include name="pink" displayName="${lang.pink}">./_assets/colorset/pink.xml</include>
-<include name="yellow" displayName="${lang.yellow}">./_assets/colorset/yellow.xml</include>
-<include name="green" displayName="${lang.green}">./_assets/colorset/green.xml</include>
-<include name="orange" displayName="${lang.orange}">./_assets/colorset/orange.xml</include>
-<include name="purple" displayName="${lang.purple}">./_assets/colorset/purple.xml</include>
-<include name="grey" displayName="${lang.grey}">./_assets/colorset/grey.xml</include>
-<include name="darkGrey" displayName="${lang.darkGrey}">./_assets/colorset/darkGrey.xml</include>
+<include name="blue" displayName="${lang.blue}">./_assets/xml/colorset/blue.xml</include>
+<include name="ocean" displayName="${lang.ocean}">./_assets/xml/colorset/ocean.xml</include>
+<include name="pink" displayName="${lang.pink}">./_assets/xml/colorset/pink.xml</include>
+<include name="yellow" displayName="${lang.yellow}">./_assets/xml/colorset/yellow.xml</include>
+<include name="green" displayName="${lang.green}">./_assets/xml/colorset/green.xml</include>
+<include name="orange" displayName="${lang.orange}">./_assets/xml/colorset/orange.xml</include>
+<include name="purple" displayName="${lang.purple}">./_assets/xml/colorset/purple.xml</include>
+<include name="grey" displayName="${lang.grey}">./_assets/xml/colorset/grey.xml</include>
+<include name="darkGrey" displayName="${lang.darkGrey}">./_assets/xml/colorset/darkGrey.xml</include>
 </subset>
 
 <!--------------------------------------------------------------------------------------------------------------------------------->

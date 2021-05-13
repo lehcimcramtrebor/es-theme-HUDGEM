@@ -164,6 +164,7 @@
 
 <image name="illustrations" extra="true">
 <linearSmooth>true</linearSmooth>
+<path>./_assets/illustrations/default.png</path>
 <path>./_assets/illustrations/${system.theme}.png</path>
 <path>./_assets/illustrations/${system.theme}.svg</path>
 <path>./_assets/illustrations/${system.theme}-${lang}.png</path>
