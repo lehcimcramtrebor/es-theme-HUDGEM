@@ -37,6 +37,7 @@ author: Lehcim Cram Trebor
 </subset>
 
 <subset name="systemText" displayName="${lang.systemText}">
+<include name="systemTextBind" displayName="${lang.systemTextBind}"/>
 <include name="systemTextStandard" displayName="${lang.systemTextStandard}"/>
 <include name="systemTextFull" displayName="${lang.systemTextFull}"/>
 <include name="systemTextFullCheevos" displayName="${lang.systemTextFullCheevos}"/>

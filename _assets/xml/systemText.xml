@@ -9,13 +9,23 @@
 <origin>1 1</origin>
 <color>dddddd</color>
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
-<fontSize>0.02</fontSize>
 <alignment>right</alignment>
 <zIndex>500</zIndex>
 <pos>0.995 0.99</pos>
 </text>
 
+<text name="systemText" extra="true" ifSubset="systemText:systemTextBind">
+<fontSize>0.018</fontSize>
+<text>${lang.games}: {binding:total}
+${lang.favorites}: {binding:favorites}
+${lang.gamesPlayed}: {binding:gamesPlayed}
+${lang.mostPlayed}: {binding:mostPlayed}
+${lang.lastPlayed}: {binding:lastPlayedDate}</text>
+<size>0.5 0.128</size>
+</text>
+
 <text name="systemText" extra="true" ifSubset="systemText:systemTextFull">
+<fontSize>0.02</fontSize>
 <text>${label.custom}
 ${lang.manufacturer}: ${system.manufacturer}
 ${lang.releasedYear}: ${system.releaseYear}</text>
@@ -23,6 +33,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </text>
 
 <text name="systemText" extra="true" ifSubset="systemText:systemTextStandard">
+<fontSize>0.02</fontSize>
 <text>
 ${lang.manufacturer}: ${system.manufacturer}
 ${lang.releasedYear}: ${system.releaseYear}</text>
@@ -30,6 +41,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </text>
 
 <text name="systemText" extra="true" ifSubset="systemText:systemTextFullCheevos">
+<fontSize>0.02</fontSize>
 <text>${lang.retroachievements}: ${cheevos.username}
 ${lang.manufacturer}: ${system.manufacturer}
 ${lang.releasedYear}: ${system.releaseYear}</text>
@@ -40,21 +52,25 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </text>
 
 <text name="systemText" extra="true" ifSubset="systemText:systemTextLabel">
+<fontSize>0.02</fontSize>
 <text>${label.custom}</text>
 <size>0.5 0.03</size>
 </text>
 
 <text name="systemText" extra="true" ifSubset="systemText:systemTextCheevos">
+<fontSize>0.02</fontSize>
 <text>${cheevos.username}</text>
 <size>0.5 0.03</size>
 </text>
 
 <text name="systemText" extra="true" ifSubset="systemText:justManufacturer">
+<fontSize>0.02</fontSize>
 <text>${system.manufacturer}</text>
 <size>0.5 0.03</size>
 </text>
 
 <text name="systemText" extra="true" ifSubset="systemText:justYear">
+<fontSize>0.02</fontSize>
 <text>${system.releaseYearOrNull}</text>
 <size>0.5 0.03</size>
 </text>

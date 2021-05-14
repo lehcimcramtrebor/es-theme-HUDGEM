@@ -130,6 +130,28 @@
 <lang.darkGrey>darkGrey</lang.darkGrey>
 <lang.darkGrey lang="fr">gris sombre</lang.darkGrey>
 
+<!-- Bindings language -->
+
+<lang.systemTextBind>games infos</lang.systemTextBind>
+<lang.systemTextBind lang="fr">infos de jeux</lang.systemTextBind>
+
+<lang.games>total games</lang.games>
+<lang.games lang="fr">nombre de jeux</lang.games>
+
+<lang.favorites>favorites</lang.favorites>
+<lang.favorites lang="fr">favoris</lang.favorites>
+
+<lang.gamesPlayed>games played</lang.gamesPlayed>
+<lang.gamesPlayed lang="fr">jeux joués</lang.gamesPlayed>
+
+<lang.mostPlayed>most played</lang.mostPlayed>
+<lang.mostPlayed lang="fr">le plus joué</lang.mostPlayed>
+
+<lang.lastPlayed>last played</lang.lastPlayed>
+<lang.lastPlayed lang="fr">dernière partie</lang.lastPlayed>
+
+<!---->
+
 </variables>
 
 </theme>

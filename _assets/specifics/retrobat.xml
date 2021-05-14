@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="basic">
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+<text name="systemText" extra="true">
+<visible>false</visible>
+</text>
+
+<text name="systemTextRetrobat" extra="true">
+<origin>1 1</origin>
+<color>dddddd</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<alignment>right</alignment>
+<zIndex>500</zIndex>
+<pos>0.995 0.99</pos>
+<fontSize>0.020</fontSize>
+<text>
+
+retrobat
+emulationstation powered
+</text>
+<size>0.5 0.085</size>
+</text>
+
+</view>
+</theme>
