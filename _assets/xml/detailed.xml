@@ -5,6 +5,272 @@
 	
 <view name="detailed">
 
+<image name="hud" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/hud.png</path>
+<zIndex>150</zIndex>
+<size>0.56 0.6405</size>
+<origin>0.495 0.4925</origin>
+<pos>0.3 0.35</pos>
+<color>${colorset}</color>
+</image>
+
+<image name="hudBack" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/white.png</path>
+<zIndex>100</zIndex>
+<size>0.4585 0.4585</size>
+<origin>0.5 0.5</origin>
+<pos>0.3 0.35</pos>
+<color>000000b3</color>
+<colorEnd>00000066</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<textlist name="gamelist">
+<size>0.291 0.4585</size>
+<origin>0.5 0.5</origin>
+<pos>0.22 0.35</pos>
+<selectorImagePath>./_assets/selector.png</selectorImagePath>
+<primaryColor>098009</primaryColor>
+<selectedColor>dddddd</selectedColor>
+<secondaryColor>090909</secondaryColor>
+<selectorColor>33333399</selectorColor>
+<selectorColor>${colorset}</selectorColor>	  		
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.02345</fontSize>
+<alignment>left</alignment>
+<horizontalMargin>0.02</horizontalMargin>
+<forceUppercase>false</forceUppercase>
+<scrollSound>./_assets/scrollg.wav</scrollSound>
+<zIndex>110</zIndex>
+<lines>12</lines>
+</textlist>
+
+<video name="code" extra="true">
+<size>0.4585 0.4585</size>
+<origin>0.5 0.5</origin>
+<pos>0.3 0.35</pos>
+<path>./_assets/code.mp4</path>
+<color>${colorset}4d</color>
+<zIndex>90</zIndex>
+<delay>0</delay>
+<audio>false</audio>
+</video>
+
+<image name="art01,art01a" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/hud.png</path>
+<zIndex>100</zIndex>
+<maxSize>0.14 99</maxSize>
+<origin>0.5 0.5</origin>
+<pos>0.45 0.275</pos>
+<storyboard>
+<animation property="opacity" from="0.6" duration="8" autoreverse="true" repeat="forever" mode="linear" />
+</storyboard>
+</image>
+
+<image name="art01" extra="true">
+<path>./_assets/art01.png</path>
+<zIndex>105</zIndex>
+<color>${colorset}</color>
+</image>
+
+<image name="art01a" extra="true">
+<path>./_assets/art01a.png</path>
+<zIndex>103</zIndex>
+<color>${colorset}66</color>
+<storyboard>
+<animation property="rotation" from="360" duration="10000" repeat="forever" mode="linear" />
+</storyboard>
+</image>
+
+<image name="hud3,hud3back" extra="true">
+<linearSmooth>true</linearSmooth>
+<size>0.5 0.167</size>
+<origin>0.5 0.5</origin>
+<pos>0.31 0.8</pos>
+</image>
+
+<image name="hud3" extra="true">
+<path>./_assets/hud3.png</path>
+<zIndex>150</zIndex>
+<color>${colorset}</color>
+</image>
+
+<image name="hud3back" extra="true">
+<path>./_assets/hud3back.png</path>
+<zIndex>140</zIndex>
+<color>${colorset}66</color>
+<colorEnd>00000066</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<image name="md_marquee">
+<maxSize>0.12 0.09</maxSize>
+<pos>0.21 0.785</pos>
+<origin>0.5 0.5</origin>
+<zIndex>145</zIndex>
+</image>
+
+<text name="md_players">
+<fontSize>0.03</fontSize>
+<size>0.04 0.04</size>
+<alignment>center</alignment>
+<origin>0.5 0.5</origin>
+<pos>0.45 0.275</pos>
+<zIndex>145</zIndex>
+<color>${colorset}</color>
+<fontPath>./_assets/players.ttf</fontPath>
+</text>
+
+<image name="md_image">
+<linearSmooth>true</linearSmooth>
+<size>0.4585 0.4585</size>
+<origin>0.5 0.5</origin>
+<pos>0.3 0.35</pos>
+<zIndex>90</zIndex>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="offsetX" from="0.015" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="0" duration="1000" mode="easeOut"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOut" begin="1000"/>
+<animation property="offsetX" from="0.015" to="0" duration="400" mode="easeOutCubic" begin="1000"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="0" duration="1000" mode="easeOut"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOut" begin="1000"/>
+<animation property="offsetX" from="0.015" to="0" duration="400" mode="easeOutCubic" begin="1000"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" to="0" duration="400" mode="easeOut"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" to="0" duration="400" mode="easeOut"/>
+</storyboard>
+</image>
+
+<image name="frame" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/frame.png</path>
+<origin>0.5 0.5</origin>
+<size>0.4 0.885</size>
+<pos>0.79 0.5</pos>
+<zIndex>150</zIndex>
+<color>${colorset}</color>
+</image>
+
+<image name="frameBack" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/frameBack.png</path>
+<origin>0.5 0.5</origin>
+<size>0.4 0.885</size>
+<pos>0.79 0.5</pos>
+<zIndex>140</zIndex>
+<color>000000b3</color>
+<colorEnd>00000066</colorEnd>
+<gradientType>vertical</gradientType>
+</image>
+
+<image name="md_thumbnail">
+<zIndex>145</zIndex>
+<maxSize>0.15 0.37</maxSize>
+<origin>1 0</origin>
+<pos>0.765 0.12</pos>
+<reflexion>0.2 0.6</reflexion>
+<storyboard>
+<animation property="opacity" from="0.6" duration="8" autoreverse="true" repeat="forever" mode="linear" />
+</storyboard>
+</image>
+
+<text name="md_description">
+<color>098009</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<fontSize>0.024</fontSize>
+<size>0.18 0.74</size>
+<pos>0.78 0.12</pos>
+<origin>0 0</origin>
+<zIndex>145</zIndex>
+</text>
+
+<control name="md_thumbnail,frame,frameBack,md_description">
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="offsetX" from="0.5" to="0" duration="400" mode="easeOutCubic" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="offsetY" from="1" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="offsetY" from="-1" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="offsetY" to="-1" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="offsetY" to="1" duration="400" mode="easeOutCubic"/>
+</storyboard>
+</control>
+				
+<text name="md_genre">
+<fontSize>0.02</fontSize>
+<alignment>right</alignment>
+<size>0.14 0.03</size>
+<origin>1 0.5</origin>
+<zIndex>110</zIndex>
+<color>098009</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<pos>0.51 0.43</pos>
+</text>
+		
+<text name="md_developer">
+<fontSize>0.02</fontSize>
+<alignment>right</alignment>
+<size>0.14 0.03</size>
+<origin>1 0.5</origin>
+<zIndex>110</zIndex>
+<color>098009</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<pos>0.51 0.46</pos>
+</text>
+
+<datetime name="md_releasedate">
+<zIndex>110</zIndex>
+<fontSize>0.02</fontSize>
+<size>0.14 0.03</size>
+<origin>1 0.5</origin>
+<alignment>right</alignment>
+<pos>0.51 0.49</pos>
+<color>098009</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+</datetime>
+
+<text name="md_lbl_playcount">
+<zIndex>110</zIndex>
+<fontSize>0.02</fontSize>
+<size>0.14 0.03</size>
+<origin>1 0.5</origin>
+<alignment>right</alignment>
+<pos>0.5 0.52</pos>
+<color>098009</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+</text>
+		
+<text name="md_playcount">
+<zIndex>110</zIndex>
+<fontSize>0.02</fontSize>
+<size>0.14 0.03</size>
+<origin>1 0.5</origin>
+<alignment>right</alignment>
+<pos>0.51 0.52</pos>
+<color>098009</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+</text>
+
 </view>
 
 </theme>

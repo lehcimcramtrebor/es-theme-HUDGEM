@@ -28,9 +28,9 @@
 </image>
 
 <textlist name="gamelist">
-<size>0.655 0.655</size>
+<size>0.416 0.655</size>
 <origin>0.5 0.5</origin>
-<pos>0.5 0.5</pos>
+<pos>0.3825 0.5</pos>
 <selectorImagePath>./_assets/selector.png</selectorImagePath>
 <primaryColor>098009</primaryColor>
 <selectedColor>dddddd</selectedColor>
@@ -47,29 +47,6 @@
 <lines>12</lines>
 </textlist>
 
-<image name="art01,art01a" extra="true">
-<linearSmooth>true</linearSmooth>
-<path>./_assets/hud.png</path>
-<zIndex>100</zIndex>
-<maxSize>0.2 99</maxSize>
-<origin>0.5 0.5</origin>
-<pos>0.7 0.4</pos>
-<color>${colorset}</color>
-</image>
-
-<image name="art01" extra="true">
-<path>./_assets/art01.png</path>
-<zIndex>105</zIndex>
-</image>
-
-<image name="art01a" extra="true">
-<path>./_assets/art01a.png</path>
-<zIndex>103</zIndex>
-<storyboard>
-<animation property="rotation" from="360" duration="10000" repeat="forever" mode="linear" />
-</storyboard>
-</image>
-
 <video name="code" extra="true">
 <size>0.655 0.655</size>
 <origin>0.5 0.5</origin>
@@ -80,6 +57,33 @@
 <delay>0</delay>
 <audio>false</audio>
 </video>
+
+<image name="art01,art01a" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_assets/hud.png</path>
+<zIndex>100</zIndex>
+<maxSize>0.2 99</maxSize>
+<origin>0.5 0.5</origin>
+<pos>0.7 0.4</pos>
+<storyboard>
+<animation property="opacity" from="0.6" duration="8" autoreverse="true" repeat="forever" mode="linear" />
+</storyboard>
+</image>
+
+<image name="art01" extra="true">
+<path>./_assets/art01.png</path>
+<zIndex>105</zIndex>
+<color>${colorset}</color>
+</image>
+
+<image name="art01a" extra="true">
+<path>./_assets/art01a.png</path>
+<zIndex>103</zIndex>
+<color>${colorset}66</color>
+<storyboard>
+<animation property="rotation" from="360" duration="10000" repeat="forever" mode="linear" />
+</storyboard>
+</image>
 
 </view>
 
