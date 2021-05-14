@@ -130,6 +130,15 @@
 <lang.darkGrey>darkGrey</lang.darkGrey>
 <lang.darkGrey lang="fr">gris sombre</lang.darkGrey>
 
+<lang.md_video>gamelist snaps • choose ratio</lang.md_video>
+<lang.md_video lang="fr">snaps des listes de jeux • choisir le format</lang.md_video>
+
+<lang.original>original</lang.original>
+<lang.original lang="fr">original</lang.original>
+
+<lang.full>stretched</lang.full>
+<lang.full lang="fr">étiré</lang.full>
+
 <!-- Bindings language -->
 
 <lang.systemTextBind>games infos</lang.systemTextBind>

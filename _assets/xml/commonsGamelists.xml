@@ -3,7 +3,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 	
-<view name="basic,detailed,video,grid,gamecarousel">
+<view name="basic,detailed,video,grid">
 
 
 <video name="BackgroundVideo" extra="true">

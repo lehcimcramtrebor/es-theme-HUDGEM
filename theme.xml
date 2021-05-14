@@ -61,6 +61,11 @@ author: Lehcim Cram Trebor
 <include name="darkGrey" displayName="${lang.darkGrey}">./_assets/xml/colorset/darkGrey.xml</include>
 </subset>
 
+<subset name="md_video" displayName="${lang.md_video}" appliesTo="video,grid">
+<include name="original" displayName="${lang.original}"/>
+<include name="full" displayName="${lang.full}"/>
+</subset>
+
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
 <include>./_assets/xml/screen.xml</include>
@@ -73,7 +78,6 @@ author: Lehcim Cram Trebor
 <include>./_assets/xml/detailed.xml</include>
 <include>./_assets/xml/video.xml</include>
 <include>./_assets/xml/grid.xml</include>
-<include>./_assets/xml/gamecarousel.xml</include>
 <include>./_assets/specifics/${system.theme}.xml</include>
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
