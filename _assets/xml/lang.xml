@@ -11,6 +11,8 @@
 <lang.no>no</lang.no>
 <lang.no lang="fr">non</lang.no>
 
+<lang.background>background • choose</lang.background>
+<lang.background lang="fr">arrière-plan • choisir</lang.background>
 
 <lang.staticEffect>effect • choose</lang.staticEffect>
 <lang.staticEffect lang="fr">effet • choisir le type</lang.staticEffect>

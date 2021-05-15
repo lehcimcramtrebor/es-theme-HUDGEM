@@ -15,6 +15,14 @@ author: Lehcim Cram Trebor
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
+<subset name="background" displayName="${lang.background}">
+<include name="futuristic 01">./_assets/xml/background/f01.xml</include>
+<include name="futuristic 02">./_assets/xml/background/f02.xml</include>
+<include name="futuristic 03">./_assets/xml/background/f03.xml</include>
+<include name="futuristic 04">./_assets/xml/background/f04.xml</include>
+<include name="futuristic 05">./_assets/xml/background/f05.xml</include>
+</subset>
+
 <subset name="staticEffect" displayName="${lang.staticEffect}">
 <include name="no" displayName="${lang.no}"/>
 <include name="scanlines" displayName="${lang.scanlines}"/>
