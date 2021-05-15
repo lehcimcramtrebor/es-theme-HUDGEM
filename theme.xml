@@ -76,7 +76,6 @@ author: Lehcim Cram Trebor
 <include>./_assets/xml/basic.xml</include>
 <include>./_assets/xml/detailed.xml</include>
 <include>./_assets/xml/video.xml</include>
-<include>./_assets/xml/grid.xml</include>
 <include>./_assets/specifics/${system.theme}.xml</include>
 
 <!--------------------------------------------------------------------------------------------------------------------------------->

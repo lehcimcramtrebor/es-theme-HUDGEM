@@ -3,7 +3,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="screen,menu,system,basic,detailed,video,grid">
+<view name="screen,menu,system,basic,detailed,video">
 	
 <helpsystem name="help">
 <textColor>090909</textColor>
