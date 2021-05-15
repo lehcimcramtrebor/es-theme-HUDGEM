@@ -73,7 +73,6 @@ author: Lehcim Cram Trebor
 <include>./_assets/xml/help.xml</include>
 <include>./_assets/xml/system.xml</include>
 <include>./_assets/xml/systemText.xml</include>
-<include>./_assets/xml/commonsGamelists.xml</include>
 <include>./_assets/xml/basic.xml</include>
 <include>./_assets/xml/detailed.xml</include>
 <include>./_assets/xml/video.xml</include>

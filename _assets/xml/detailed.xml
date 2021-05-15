@@ -5,6 +5,17 @@
 	
 <view name="detailed">
 
+<video name="BackgroundVideo" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./_assets/background.mp4</path>
+<color>${colorset}</color>
+<zIndex>1</zIndex>
+<delay>0</delay>
+<audio>false</audio>
+</video>
+
 <image name="hud" extra="true">
 <linearSmooth>true</linearSmooth>
 <path>./_assets/hud.png</path>
@@ -47,17 +58,6 @@
 <lines>12</lines>
 </textlist>
 
-<video name="code" extra="true">
-<size>0.4585 0.4585</size>
-<origin>0.5 0.5</origin>
-<pos>0.3 0.35</pos>
-<path>./_assets/code.mp4</path>
-<color>${colorset}4d</color>
-<zIndex>90</zIndex>
-<delay>0</delay>
-<audio>false</audio>
-</video>
-
 <image name="art01,art01a" extra="true">
 <linearSmooth>true</linearSmooth>
 <path>./_assets/hud.png</path>
@@ -65,9 +65,6 @@
 <maxSize>0.14 99</maxSize>
 <origin>0.5 0.5</origin>
 <pos>0.45 0.275</pos>
-<storyboard>
-<animation property="opacity" from="0.6" duration="8" autoreverse="true" repeat="forever" mode="linear" />
-</storyboard>
 </image>
 
 <image name="art01" extra="true">
@@ -211,7 +208,7 @@
 <origin>0.5 0.5</origin>
 <color>098009</color>
 <pos>0.41 0.8</pos>
-<size>0 0.07</size>
+<size>0 0.0694444444444444</size>
 <filledPath>./_assets/filled.png</filledPath>
 <unfilledPath>./_assets/empty.png</unfilledPath>
 <unfilledColor>${colorset}</unfilledColor>
@@ -227,23 +224,23 @@
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
-<animation property="offsetX" from="0.015" to="0" duration="400" mode="easeOutCubic"/>
+<animation property="offsetX" from="0.0075" to="0" duration="400" mode="easeOutCubic"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="0" duration="1000" mode="easeOut"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOut" begin="1000"/>
-<animation property="offsetX" from="0.015" to="0" duration="400" mode="easeOutCubic" begin="1000"/>
+<animation property="offsetX" from="0.0075" to="0" duration="400" mode="easeOutCubic" begin="1000"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="0" duration="1000" mode="easeOut"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOut" begin="1000"/>
-<animation property="offsetX" from="0.015" to="0" duration="400" mode="easeOutCubic" begin="1000"/>
+<animation property="offsetX" from="0.0075" to="0" duration="400" mode="easeOutCubic" begin="1000"/>
 </storyboard>
 <storyboard event="deactivateNext">
-<animation property="opacity" to="0" duration="400" mode="easeOut"/>
+<animation property="opacity" to="0" duration="1" mode="easeOut"/>
 </storyboard>
 <storyboard event="deactivatePrev">
-<animation property="opacity" to="0" duration="400" mode="easeOut"/>
+<animation property="opacity" to="0" duration="1" mode="easeOut"/>
 </storyboard>
 </image>
 
@@ -274,10 +271,7 @@
 <maxSize>0.15 0.37</maxSize>
 <origin>1 0</origin>
 <pos>0.765 0.12</pos>
-<reflexion>0.2 0.6</reflexion>
-<storyboard>
-<animation property="opacity" from="0.6" duration="8" autoreverse="true" repeat="forever" mode="linear" />
-</storyboard>
+<reflexion>0.2 0</reflexion>
 </image>
 
 <text name="md_description">
@@ -312,7 +306,7 @@
 <pos>0.77 0.86</pos>
 </image>
 
-<control name="md_thumbnail,frame,frameBack,md_description,lineUp,lineDown">
+<control name="frame,frameBack,md_thumbnail,md_description,lineUp,lineDown">
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
