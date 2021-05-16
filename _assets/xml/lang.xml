@@ -14,8 +14,14 @@
 <lang.customMusic>custom music • activate</lang.customMusic>
 <lang.customMusic lang="fr">musique personnalisée • activer</lang.customMusic>
 
+<lang.colorset>colorset • choose</lang.colorset>
+<lang.colorset lang="fr">jeu de couleurs • choisir</lang.colorset>
+
 <lang.cutAudioVideos>random videos in systemview • cut sound</lang.cutAudioVideos>
 <lang.cutAudioVideos lang="fr">vidéos aléatoires de la vue système • couper le son</lang.cutAudioVideos>
+
+<lang.biChrome>bichromatic view • activate</lang.biChrome>
+<lang.biChrome lang="fr">bichromie • activer</lang.biChrome>
 
 <lang.background>background • choose</lang.background>
 <lang.background lang="fr">arrière-plan • choisir</lang.background>

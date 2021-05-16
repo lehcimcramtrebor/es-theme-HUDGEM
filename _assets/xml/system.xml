@@ -20,6 +20,10 @@
 <zIndex>1</zIndex>
 <audio>false</audio>
 </video>
+
+<video name="staticBackgroundVideo" ifSubset="biChrome:yes">
+<color>ffffffbf</color>
+</video>
 	
 <carousel name="systemcarousel">
 <type>horizontal</type>      

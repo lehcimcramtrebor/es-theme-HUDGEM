@@ -11,10 +11,14 @@
 <origin>0 0</origin>
 <path>./_assets/${background}.mp4</path>
 <path>./_assets/test.mp4</path>
-<color>${colorset}</color>
+<color>${colorset}bf</color>
 <zIndex>1</zIndex>
 <delay>0</delay>
 <audio>false</audio>
+</video>
+
+<video name="BackgroundVideo" extra="true" ifSubset="biChrome:yes">
+<color>ffffffbf</color>
 </video>
 
 <video name="md_video">

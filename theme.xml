@@ -15,9 +15,17 @@ author: Lehcim Cram Trebor
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
-<subset name="customMusic" displayName="${lang.customMusic}">
-<include name="no" displayName="${lang.no}"/>
-<include name="yes" displayName="${lang.yes}"/>
+
+<subset name="colorset" displayName="${lang.colorset}">
+<include name="blue" displayName="${lang.blue}">./_assets/xml/colorset/blue.xml</include>
+<include name="ocean" displayName="${lang.ocean}">./_assets/xml/colorset/ocean.xml</include>
+<include name="pink" displayName="${lang.pink}">./_assets/xml/colorset/pink.xml</include>
+<include name="yellow" displayName="${lang.yellow}">./_assets/xml/colorset/yellow.xml</include>
+<include name="green" displayName="${lang.green}">./_assets/xml/colorset/green.xml</include>
+<include name="orange" displayName="${lang.orange}">./_assets/xml/colorset/orange.xml</include>
+<include name="purple" displayName="${lang.purple}">./_assets/xml/colorset/purple.xml</include>
+<include name="grey" displayName="${lang.grey}">./_assets/xml/colorset/grey.xml</include>
+<include name="darkGrey" displayName="${lang.darkGrey}">./_assets/xml/colorset/darkGrey.xml</include>
 </subset>
 
 <subset name="background" displayName="${lang.background}">
@@ -26,6 +34,11 @@ author: Lehcim Cram Trebor
 <include name="futuristic 03">./_assets/xml/background/f03.xml</include>
 <include name="futuristic 04">./_assets/xml/background/f04.xml</include>
 <include name="futuristic 05">./_assets/xml/background/f05.xml</include>
+</subset>
+
+<subset name="biChrome" displayName="${lang.biChrome}">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
 </subset>
 
 <subset name="staticEffect" displayName="${lang.staticEffect}">
@@ -61,17 +74,9 @@ author: Lehcim Cram Trebor
 <include name="notDisplay" displayName="${lang.notDisplay}"/>
 </subset>
 
-
-<subset name="colorset" displayName="${lang.colorset}">
-<include name="blue" displayName="${lang.blue}">./_assets/xml/colorset/blue.xml</include>
-<include name="ocean" displayName="${lang.ocean}">./_assets/xml/colorset/ocean.xml</include>
-<include name="pink" displayName="${lang.pink}">./_assets/xml/colorset/pink.xml</include>
-<include name="yellow" displayName="${lang.yellow}">./_assets/xml/colorset/yellow.xml</include>
-<include name="green" displayName="${lang.green}">./_assets/xml/colorset/green.xml</include>
-<include name="orange" displayName="${lang.orange}">./_assets/xml/colorset/orange.xml</include>
-<include name="purple" displayName="${lang.purple}">./_assets/xml/colorset/purple.xml</include>
-<include name="grey" displayName="${lang.grey}">./_assets/xml/colorset/grey.xml</include>
-<include name="darkGrey" displayName="${lang.darkGrey}">./_assets/xml/colorset/darkGrey.xml</include>
+<subset name="customMusic" displayName="${lang.customMusic}">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
 </subset>
 
 <subset name="md_video" displayName="${lang.md_video}" appliesTo="video">
