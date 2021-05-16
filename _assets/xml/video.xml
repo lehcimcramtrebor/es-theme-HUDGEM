@@ -308,11 +308,11 @@
 <image name="md_thumbnail">
 <zIndex>145</zIndex>
 <maxSize>0.15 0.37</maxSize>
-<maxSize ifSubset="frame:horizontal">0.34 0.37</maxSize>
+<maxSize ifSubset="frame:horizontal">0.32 0.37</maxSize>
 <origin>1 0</origin>
-<origin ifSubset="frame:horizontal">0.5 1</origin>
+<origin ifSubset="frame:horizontal">0.5 0</origin>
 <pos>0.765 0.12</pos>
-<pos ifSubset="frame:horizontal">0.785 0.87</pos>
+<pos ifSubset="frame:horizontal">0.785 0.51</pos>
 <reflexion>0.2 0</reflexion>
 <reflexion ifSubset="frame:horizontal">0.01 0</reflexion>
 </image>
