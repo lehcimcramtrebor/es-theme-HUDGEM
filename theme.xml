@@ -20,11 +20,6 @@ author: Lehcim Cram Trebor
 <include name="yes" displayName="${lang.yes}"/>
 </subset>
 
-<subset name="cutAudioVideos" displayName="${lang.cutAudioVideos}">
-<include name="no" displayName="${lang.no}"/>
-<include name="yes" displayName="${lang.yes}"/>
-</subset>
-
 <subset name="background" displayName="${lang.background}">
 <include name="futuristic 01">./_assets/xml/background/f01.xml</include>
 <include name="futuristic 02">./_assets/xml/background/f02.xml</include>
@@ -79,9 +74,14 @@ author: Lehcim Cram Trebor
 <include name="darkGrey" displayName="${lang.darkGrey}">./_assets/xml/colorset/darkGrey.xml</include>
 </subset>
 
-<subset name="md_video" displayName="${lang.md_video}" appliesTo="video,grid">
+<subset name="md_video" displayName="${lang.md_video}" appliesTo="video">
 <include name="original" displayName="${lang.original}"/>
 <include name="full" displayName="${lang.full}"/>
+</subset>
+
+<subset name="cutAudioVideos" displayName="${lang.cutAudioVideos}" appliesTo="video">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
 </subset>
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
