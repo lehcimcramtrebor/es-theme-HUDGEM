@@ -36,6 +36,7 @@ author: Lehcim Cram Trebor
 <include name="futuristic 05">./_assets/xml/background/f05.xml</include>
 <include name="retrowave 01">./_assets/xml/background/r01.xml</include>
 <include name="retrowave 02">./_assets/xml/background/r02.xml</include>
+<include name="retrowave 03">./_assets/xml/background/r03.xml</include>
 <include name="flat">./_assets/xml/background/flat.xml</include>
 </subset>
 
