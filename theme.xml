@@ -37,6 +37,12 @@ author: Lehcim Cram Trebor
 <include name="retrowave 01">./_assets/xml/background/r01.xml</include>
 <include name="retrowave 02">./_assets/xml/background/r02.xml</include>
 <include name="retrowave 03">./_assets/xml/background/r03.xml</include>
+<include name="retrowave 04">./_assets/xml/background/r04.xml</include>
+<include name="retrowave 05">./_assets/xml/background/r05.xml</include>
+<include name="retrowave 06">./_assets/xml/background/r06.xml</include>
+<include name="retrowave 07">./_assets/xml/background/r07.xml</include>
+<include name="retrowave 08">./_assets/xml/background/r08.xml</include>
+<include name="retrowave 09">./_assets/xml/background/r09.xml</include>
 <include name="flat">./_assets/xml/background/flat.xml</include>
 </subset>
 

@@ -215,6 +215,7 @@
 </image>
 
 <video name="randomVideo" extra="true">
+<default>./_assets/noise.mp4</default>
 <path>{random}</path>
 <path>${randomVideo.path}${system.theme}.mp4</path>
 <size>0.3275 0.3275</size>
