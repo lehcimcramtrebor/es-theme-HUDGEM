@@ -23,15 +23,10 @@
 <randomVideo.path>./_assets/customVideos/</randomVideo.path>
 
 
-
-<!-- active or desactive audio for videos ( "true" of "false" ) -->
-
-
-<randomVideo.audio>true</randomVideo.audio>
-
-<!--------------------------------------------------->
+<!-- Enter the relative path of your custom music -->
 
 
+<music.path>./_assets/customMusics/</music.path>
 
 
 </variables></theme>

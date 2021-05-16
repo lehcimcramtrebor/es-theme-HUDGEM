@@ -11,6 +11,12 @@
 <lang.no>no</lang.no>
 <lang.no lang="fr">non</lang.no>
 
+<lang.customMusic>custom music • activate</lang.customMusic>
+<lang.customMusic lang="fr">musique personnalisée • activer</lang.customMusic>
+
+<lang.cutAudioVideos>random videos • cut sound</lang.cutAudioVideos>
+<lang.cutAudioVideos lang="fr">vidéos aléatoires • couper le son</lang.cutAudioVideos>
+
 <lang.background>background • choose</lang.background>
 <lang.background lang="fr">arrière-plan • choisir</lang.background>
 

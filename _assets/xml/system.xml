@@ -5,9 +5,9 @@
 
 <view name="system">
 
-<sound name="bgsound">
-<path>./_assets/customMusics/${system.theme}.mp3</path>
-<path>./_assets/customMusics/${system.theme}.ogg</path>
+<sound name="bgsound" ifSubset="customMusic:yes">
+<path>${music.path}${system.theme}.mp3</path>
+<path>${music.path}${system.theme}.ogg</path>
 </sound>
 
 <video name="staticBackgroundVideo">
@@ -216,10 +216,14 @@
 <size>0.3275 0.3275</size>
 <origin>0.5 0.5</origin>
 <pos>0.7 0.35</pos>
-<audio>${randomVideo.audio}</audio>
+<audio>true</audio>
 <delay>0</delay>
 <effect>none</effect>
 <zIndex>9990</zIndex>
+</video>
+
+<video name="randomVideo" extra="true" ifSubset="cutAudioVideos:yes">
+<audio>false</audio>
 </video>
 
 <control name="randomVideo,hudBack,hud">

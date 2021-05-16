@@ -15,6 +15,16 @@ author: Lehcim Cram Trebor
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
+<subset name="customMusic" displayName="${lang.customMusic}">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
+</subset>
+
+<subset name="cutAudioVideos" displayName="${lang.cutAudioVideos}">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
+</subset>
+
 <subset name="background" displayName="${lang.background}">
 <include name="futuristic 01">./_assets/xml/background/f01.xml</include>
 <include name="futuristic 02">./_assets/xml/background/f02.xml</include>
