@@ -34,6 +34,9 @@ author: Lehcim Cram Trebor
 <include name="futuristic 03">./_assets/xml/background/f03.xml</include>
 <include name="futuristic 04">./_assets/xml/background/f04.xml</include>
 <include name="futuristic 05">./_assets/xml/background/f05.xml</include>
+<include name="retrowave 01">./_assets/xml/background/r01.xml</include>
+<include name="retrowave 02">./_assets/xml/background/r02.xml</include>
+<include name="flat">./_assets/xml/background/flat.xml</include>
 </subset>
 
 <subset name="biChrome" displayName="${lang.biChrome}">
@@ -79,14 +82,19 @@ author: Lehcim Cram Trebor
 <include name="yes" displayName="${lang.yes}"/>
 </subset>
 
-<subset name="md_video" displayName="${lang.md_video}" appliesTo="video">
+<subset name="md_video" displayName="${lang.md_video}" appliesTo="detailed,video">
 <include name="original" displayName="${lang.original}"/>
 <include name="full" displayName="${lang.full}"/>
 </subset>
 
-<subset name="cutAudioVideos" displayName="${lang.cutAudioVideos}" appliesTo="video">
+<subset name="cutAudioVideos" displayName="${lang.cutAudioVideos}" appliesTo="detailed,video">
 <include name="no" displayName="${lang.no}"/>
 <include name="yes" displayName="${lang.yes}"/>
+</subset>
+
+<subset name="frame" displayName="${lang.frame}" appliesTo="detailed,video">
+<include name="vertical" displayName="${lang.vertical}"/>
+<include name="horizontal" displayName="${lang.horizontal}"/>
 </subset>
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
