@@ -12,13 +12,28 @@
 <path>./_assets/${background}.mp4</path>
 <path>./_assets/test.mp4</path>
 <color>${colorset}bf</color>
+<color ifSubset="biChrome:yes">ffffffbf</color>
 <zIndex>1</zIndex>
 <delay>0</delay>
 <audio>false</audio>
+<storyboard event="open">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear" />
+</storyboard>
 </video>
 
-<video name="BackgroundVideo" extra="true" ifSubset="biChrome:yes">
-<color>ffffffbf</color>
+<video name="code" extra="true">
+<size>0.4585 0.4585</size>
+<origin>0.5 0.5</origin>
+<pos>0.3 0.35</pos>
+<path>./_assets/code.mp4</path>
+<color>${colorset}4d</color>
+<color ifSubset="biChrome:yes">ffffff4d</color>
+<zIndex>90</zIndex>
+<delay>0</delay>
+<audio>false</audio>
+<storyboard event="open">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear" />
+</storyboard>
 </video>
 
 <image name="hud" extra="true">
