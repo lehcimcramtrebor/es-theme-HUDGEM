@@ -89,17 +89,17 @@ author: Lehcim Cram Trebor
 <include name="yes" displayName="${lang.yes}"/>
 </subset>
 
-<subset name="md_video" displayName="${lang.md_video}" appliesTo="detailed,video">
+<subset name="md_video" displayName="${lang.md_video}" appliesTo="basic,detailed,video">
 <include name="original" displayName="${lang.original}"/>
 <include name="full" displayName="${lang.full}"/>
 </subset>
 
-<subset name="cutAudioVideos" displayName="${lang.cutAudioVideos}" appliesTo="detailed,video">
+<subset name="cutAudioVideos" displayName="${lang.cutAudioVideos}" appliesTo="basic,detailed,video">
 <include name="no" displayName="${lang.no}"/>
 <include name="yes" displayName="${lang.yes}"/>
 </subset>
 
-<subset name="frame" displayName="${lang.frame}" appliesTo="detailed,video">
+<subset name="frame" displayName="${lang.frame}" appliesTo="basic,detailed,video">
 <include name="vertical" displayName="${lang.vertical}"/>
 <include name="horizontal" displayName="${lang.horizontal}"/>
 </subset>
