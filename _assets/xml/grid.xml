@@ -444,6 +444,7 @@
 <animateSelection>false</animateSelection>
 <scrollSound>./_assets/scrollg.wav</scrollSound>
 <zIndex>110</zIndex>
+<imageSource>thumbnail</imageSource>
 </imagegrid>
 
 <gridtile name="default">
