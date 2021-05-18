@@ -6,9 +6,9 @@
 <view name="detailed">
 
 <video name="BackgroundVideo" extra="true">
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
+<maxSize>99 1</maxSize>
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
 <path>./_assets/loops/${background}.mp4</path>
 <path>./_assets/loops/test.mp4</path>
 <color>${colorset}bf</color>
