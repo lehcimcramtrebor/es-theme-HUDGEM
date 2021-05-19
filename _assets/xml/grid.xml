@@ -368,17 +368,14 @@
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
 <animation property="offsetX" from="0.5" to="0" duration="400" mode="easeOutCubic" begin="250"/>
-<animation property="reflexion" from="0 0" duration="400" mode="easeOutCubic" begin="250"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="offsetX" from="0.015" to="0" duration="400" mode="easeOutCubic"/>
-<animation property="reflexion" from="0 0" to="0.2 0" duration="600" mode="easeOutCubic"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="offsetX" from="-0.015" to="0" duration="400" mode="easeOutCubic"/>
-<animation property="reflexion" from="0 0" to="0.2 0" duration="600" mode="easeOutCubic"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="25" mode="easeOutCubic"/>
