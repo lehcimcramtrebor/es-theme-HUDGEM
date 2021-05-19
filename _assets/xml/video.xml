@@ -176,6 +176,25 @@
 <pos>0.202 0.785</pos>
 <origin>0.5 0.5</origin>
 <zIndex>145</zIndex>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="Y" from="0.5" to="0" duration="400" mode="easeOutCubic" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="offsetY" from="0.0025" to="0" duration="400" mode="linear"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="offsetY" from="-0.0025" to="0" duration="400" mode="linear"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
 </image>
 
 <text name="md_players">
@@ -261,6 +280,24 @@
 <zIndex>145</zIndex>
 <pos>0.137 0.85</pos>
 <alignment>left</alignment>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="size" from="0 0.002" duration="1500" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="size" from="0 0.002" duration="1500" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="25" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="25" mode="easeOutCubic"/>
+</storyboard>
 </text>
 
 <image name="md_flag">
@@ -270,6 +307,22 @@
 <linearSmooth>true</linearSmooth>
 <zIndex>145</zIndex>
 <reflexion>0.1 0</reflexion>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
 </image>
 			
 <rating name="md_rating">
@@ -281,6 +334,22 @@
 <unfilledPath>./_assets/empty.png</unfilledPath>
 <unfilledColor>${colorset}</unfilledColor>
 <zIndex>145</zIndex>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
 </rating>
 
 <image name="frame" extra="true">
@@ -375,6 +444,18 @@
 </storyboard>
 </control>
 				
+<text name="systemLabel" extra="true">
+<text>${system.fullName}</text>
+<fontSize>0.023</fontSize>
+<alignment>right</alignment>
+<size>0.14 0.03</size>
+<origin>1 0.5</origin>
+<zIndex>110</zIndex>
+<color>108009</color>
+<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
+<pos>0.51 0.415</pos>
+</text>
+			
 <text name="md_genre">
 <fontSize>0.02</fontSize>
 <alignment>right</alignment>
@@ -383,7 +464,7 @@
 <zIndex>110</zIndex>
 <color>098009</color>
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
-<pos>0.51 0.43</pos>
+<pos>0.51 0.445</pos>
 </text>
 		
 <text name="md_developer">
@@ -394,7 +475,7 @@
 <zIndex>110</zIndex>
 <color>098009</color>
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
-<pos>0.51 0.46</pos>
+<pos>0.51 0.475</pos>
 </text>
 
 <datetime name="md_releasedate">
@@ -403,7 +484,7 @@
 <size>0.14 0.03</size>
 <origin>1 0.5</origin>
 <alignment>right</alignment>
-<pos>0.51 0.49</pos>
+<pos>0.51 0.505</pos>
 <color>098009</color>
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
 </datetime>
@@ -414,7 +495,7 @@
 <size>0.14 0.03</size>
 <origin>1 0.5</origin>
 <alignment>right</alignment>
-<pos>0.49 0.52</pos>
+<pos>0.49 0.535</pos>
 <color>098009</color>
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
 </text>
@@ -425,10 +506,31 @@
 <size>0.14 0.03</size>
 <origin>1 0.5</origin>
 <alignment>right</alignment>
-<pos>0.51 0.52</pos>
+<pos>0.51 0.535</pos>
 <color>098009</color>
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
 </text>
+
+<control name="md_playcount,md_lbl_playcount,md_releasedate,md_developer,md_genre">
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="size" from="0 0.03" duration="1500" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="size" from="0 0.03" duration="1500" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="25" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="25" mode="easeOutCubic"/>
+</storyboard>
+</control>
 
 </view>
 
