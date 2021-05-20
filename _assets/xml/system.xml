@@ -15,7 +15,7 @@
 <pos>0.5 0.5</pos>
 <origin>0.5 0.5</origin>
 <path>./_assets/loops/${background}.mp4</path>
-<path>./_assets/loops/test.mp4</path>
+<path>./_customBackground/background.mp4</path>
 <color>${colorset}bf</color>
 <zIndex>1</zIndex>
 <audio>false</audio>
@@ -140,6 +140,10 @@
 <path>./_assets/logos/${system.theme}.svg</path>
 <path>./_assets/logos/${system.theme}-${lang}.png</path>
 <path>./_assets/logos/${system.theme}-${lang}.svg</path>
+<path>./_customLogos/${system.theme}.png</path>
+<path>./_customLogos/${system.theme}.svg</path>
+<path>./_customLogos/${system.theme}-${lang}.png</path>
+<path>./_customLogos/${system.theme}-${lang}.svg</path>
 <scale>0.5</scale>
 <storyboard event="activate">
 <animation property="scale" from="0.5" to="1" duration="250" mode="EaseOut"/>
@@ -160,11 +164,15 @@
 <image name="logo" region="us">
 <path>./_assets/logos/us/${system.theme}.png</path>
 <path>./_assets/logos/us/${system.theme}.svg</path>
+<path>./_customLogos/us/${system.theme}.png</path>
+<path>./_customLogos/us/${system.theme}.svg</path>
 </image>
 
 <image name="logo" region="jp">
 <path>./_assets/logos/jp/${system.theme}.png</path>
 <path>./_assets/logos/jp/${system.theme}.svg</path>
+<path>./_customLogos/jp/${system.theme}.png</path>
+<path>./_customLogos/jp/${system.theme}.svg</path>
 </image>
 
 <image name="illustrations" extra="true">
@@ -174,24 +182,32 @@
 <path>./_assets/illustrations/${system.theme}.svg</path>
 <path>./_assets/illustrations/${system.theme}-${lang}.png</path>
 <path>./_assets/illustrations/${system.theme}-${lang}.svg</path>
+<path>./_customIllustrations/${system.theme}.png</path>
+<path>./_customIllustrations/${system.theme}.svg</path>
+<path>./_customIllustrations/${system.theme}-${lang}.png</path>
+<path>./_customIllustrations/${system.theme}-${lang}.svg</path>
 <zIndex>10000</zIndex>
 <origin>0.5 0.5</origin>
-<pos>0.5 0.4</pos>
+<pos>0.3 0.4</pos>
 <maxSize>0.3 0.3</maxSize>
 <storyboard>
-<animation property="offsetX" to="-0.2" duration="1000" mode="EaseOut" begin="750"/>
+<animation property="pos" from="0.5 0.4" to="0.5 0.4" duration="750" mode="EaseOut"/>
+<animation property="pos" to="0.3 0.4" duration="1000" mode="EaseOut" begin="750"/>
 </storyboard>
 </image>
 
 <image name="illustrations" region="us" extra="true">
 <path>./_assets/illustrations/us/${system.theme}.png</path>
 <path>./_assets/illustrations/us/${system.theme}.svg</path>
+<path>./_customIllustrations/us/${system.theme}.png</path>
+<path>./_customIllustrations/us/${system.theme}.svg</path>
 </image>
 
 <image name="illustrations" region="jp" extra="true">
 <path>./_assets/illustrations/jp/${system.theme}.png</path>
 <path>./_assets/illustrations/jp/${system.theme}.svg</path>
-</image>
+<path>./_customIllustrations/jp/${system.theme}.png</path>
+<path>./_customIllustrations/jp/${system.theme}.svg</path></image>
 
 
 <image name="hud" extra="true">

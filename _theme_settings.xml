@@ -20,13 +20,13 @@
 <!-- Enter the relative path of your custom videos -->
 
 
-<randomVideo.path>./_assets/customVideos/</randomVideo.path>
+<randomVideo.path>./_customVideos/</randomVideo.path>
 
 
 <!-- Enter the relative path of your custom music -->
 
 
-<music.path>./_assets/customMusics/</music.path>
+<music.path>./_customMusics/</music.path>
 
 
 </variables></theme>
