@@ -5,12 +5,11 @@
 	
 <view name="grid">
 
-<video name="BackgroundVideo" extra="true">
+<video name="BackgroundVideo" extra="true" ifSubset="mode:default|custom|customAudio">
 <maxSize>99 1</maxSize>
 <pos>0.5 0.5</pos>
 <origin>0.5 0.5</origin>
 <path>./_assets/loops/${background}.mp4</path>
-<path>./_customBackground/background.mp4</path>
 <color>${colorset}bf</color>
 <color ifSubset="biChrome:yes">ffffffbf</color>
 <zIndex>1</zIndex>
@@ -19,6 +18,11 @@
 <storyboard event="open">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear" />
 </storyboard>
+</video>
+
+<video name="BackgroundVideo" extra="true" ifSubset="mode:custom|customAudio">
+<path>./_customBackgrounds/default.mp4</path>
+<path>./_customBackgrounds/${system.theme}.mp4</path>
 </video>
 
 <video name="code" extra="true">

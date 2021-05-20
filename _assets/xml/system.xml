@@ -8,14 +8,14 @@
 <sound name="bgsound" ifSubset="customMusic:yes">
 <path>${music.path}${system.theme}.mp3</path>
 <path>${music.path}${system.theme}.ogg</path>
+<path ifSubset="mode:customAudio">./_assets/silence.ogg</path>
 </sound>
 
-<video name="staticBackgroundVideo">
+<video name="staticBackgroundVideo" ifSubset="mode:default">
 <maxSize>99 1</maxSize>
 <pos>0.5 0.5</pos>
 <origin>0.5 0.5</origin>
 <path>./_assets/loops/${background}.mp4</path>
-<path>./_customBackground/background.mp4</path>
 <color>${colorset}bf</color>
 <zIndex>1</zIndex>
 <audio>false</audio>
@@ -23,6 +23,23 @@
 
 <video name="staticBackgroundVideo" ifSubset="biChrome:yes">
 <color>ffffffbf</color>
+</video>
+
+<video name="BackgroundVideo" extra="true" ifSubset="mode:custom|customAudio">
+<maxSize>99 1</maxSize>
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
+<path>./_customBackgrounds/default.mp4</path>
+<path>./_customBackgrounds/${system.theme}.mp4</path>
+<color>${colorset}bf</color>
+<color ifSubset="biChrome:yes">ffffffbf</color>
+<zIndex>1</zIndex>
+<delay>0</delay>
+<audio>false</audio>
+</video>
+
+<video name="BackgroundVideo" extra="true" ifSubset="mode:customAudio">
+<audio>true</audio>
 </video>
 	
 <carousel name="systemcarousel">
@@ -50,7 +67,7 @@
 <gradientType>vertical</gradientType>
 </image>
 
-<image name="backCarouselcenter" extra="true">
+<image name="backCarouselCenter" extra="true">
 <path>./_assets/white.png</path>
 <zIndex>9997</zIndex>
 <size>1 0.2</size>
@@ -253,6 +270,25 @@
 <animation property="opacity" from="0" to="1" duration="550" mode="linear" begin="1200"/>
 </storyboard>
 </control>
+
+
+<control name="illustrations" ifSubset="customScreen:yes">
+<storyboard>
+<animation property="pos" from="0.5 0.4" to="0.5 0.4" duration="1" mode="EaseOut"/>
+<animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
+<animation property="offsetY" to="-0.1" duration="300" mode="EaseOut" begin="1500"/>
+</storyboard>
+</control>
+
+<control name="randomVideo,hud,hudBack" ifSubset="customScreen:yes">
+<storyboard>
+<animation property="opacity" to="0" duration="1" mode="EaseOut"/>
+<animation property="audio" to="false" duration="1" mode="EaseOut"/>
+</storyboard>
+</control>
+
+
+
 
 </view>
 

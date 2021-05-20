@@ -15,6 +15,16 @@ author: Lehcim Cram Trebor
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
+<subset name="mode" displayName="${lang.mode}">
+<include name="default" displayName="${lang.default}"/>
+<include name="custom" displayName="${lang.custom}"/>
+<include name="customAudio" displayName="${lang.customAudio}"/>
+</subset>
+
+<subset name="customScreen" displayName="${lang.customScreen}">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
+</subset>
 
 <subset name="colorset" displayName="${lang.colorset}">
 <include name="blue" displayName="${lang.blue}">./_assets/xml/colorset/blue.xml</include>
