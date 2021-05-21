@@ -35,14 +35,14 @@
 <lang.custom>customized</lang.custom>
 <lang.custom lang="fr">customisés</lang.custom>
 
-<lang.customAudio>customized (with audio, cut the music)</lang.customAudio>
-<lang.customAudio lang="fr">customisés et sonorisés (coupe toute musique)</lang.customAudio>
+<lang.customAudio>customized (with audio, cut music and snaps audio)</lang.customAudio>
+<lang.customAudio lang="fr">customisés et sonorisés (coupe la musique et le son des snaps)</lang.customAudio>
 
 <lang.customStatic>static customized</lang.customStatic>
 <lang.customStatic lang="fr">customisé statique</lang.customStatic>
 
-<lang.customStaticAudio>static customized (with audio, cut the music)</lang.customStaticAudio>
-<lang.customStaticAudio lang="fr">customisé statique sonorisé (coupe toute musique)</lang.customStaticAudio>
+<lang.customStaticAudio>static customized (with audio, cut music and snaps audio)</lang.customStaticAudio>
+<lang.customStaticAudio lang="fr">customisé statique sonorisé (coupe la musique et le son des snaps)</lang.customStaticAudio>
 
 <lang.frame>gamelist description and thumbnail • orientation</lang.frame>
 <lang.frame lang="fr">boite et description des listes de jeu • orientation</lang.frame>

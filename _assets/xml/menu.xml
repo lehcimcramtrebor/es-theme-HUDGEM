@@ -7,19 +7,19 @@
 
 <menuText name="menutitle">
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
-<fontSize>0.035</fontSize>
+<fontSize>0.03</fontSize>
 <color>202020</color>
 </menuText>
 
 <menuText name="menufooter">
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
-<fontSize>0.022</fontSize>
+<fontSize>0.018</fontSize>
 <color>dddddd</color>
 </menuText>
 
 <menuText name="menutext">
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
-<fontSize>0.032</fontSize>
+<fontSize>0.026</fontSize>
 <color>121212</color>
 <separatorColor>303030</separatorColor>
 <selectorColor>202020</selectorColor>
@@ -39,7 +39,7 @@
 
 <menuGroup name="menugroup">
 <fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
-<fontSize>0.032</fontSize>
+<fontSize>0.026</fontSize>
 <color>dddddd</color>
 <separatorColor>505050</separatorColor>
 <backgroundColor>${colorset}33</backgroundColor>
