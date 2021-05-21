@@ -18,15 +18,26 @@
 		<maxSize>1 1</maxSize>
 		<zIndex>1</zIndex>
 	</image>
-
+    <image name="progressbar">
+      <origin>0 0.5</origin>
+      <pos>0.35 0.76</pos>
+      <size>0.3 0.036</size>
+      <color>ffffff</color>
+      <colorEnd>ffffff</colorEnd>
+      <roundCorners>0.01</roundCorners>
+    </image>
+	<image name="progressbar:active">
+      <color>098009</color>
+      <colorEnd>098009</colorEnd>
+    </image>
 	<text name="label">
-		<color>dddddd</color>
+		<color>098009</color>
 		<alignment>center</alignment>
 		<fontPath>./_assets/Staatliches-Regular.ttf</fontPath>
-		<pos>0 0.94</pos>
+		<pos>0 0.78</pos>
 		<fontSize>0.024</fontSize>
 		<glowSize>1</glowSize>
-		<glowColor>808080</glowColor>
+		<glowColor>090909</glowColor>
 		<glowOffset>0</glowOffset>
 		<zIndex>9</zIndex>
 	</text>
