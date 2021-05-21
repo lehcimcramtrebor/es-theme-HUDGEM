@@ -23,8 +23,14 @@
 <lang.default>default</lang.default>
 <lang.default lang="fr">par défaut</lang.default>
 
-<lang.carouselOnly>carousel only</lang.carouselOnly>
-<lang.carouselOnly lang="fr">uniquement le carousel</lang.carouselOnly>
+<lang.carouselOnly>keep carousel and system infos</lang.carouselOnly>
+<lang.carouselOnly lang="fr">garder le carousel et les infos</lang.carouselOnly>
+
+<lang.videoOnly>keep system infos only</lang.videoOnly>
+<lang.videoOnly lang="fr">garder uniquement les infos</lang.videoOnly>
+
+<lang.nothing>keep only video</lang.nothing>
+<lang.nothing lang="fr">garder uniquement la vidéo</lang.nothing>
 
 <lang.custom>customized</lang.custom>
 <lang.custom lang="fr">customisés</lang.custom>

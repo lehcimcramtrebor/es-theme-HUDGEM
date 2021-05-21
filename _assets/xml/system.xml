@@ -273,8 +273,7 @@
 </storyboard>
 </control>
 
-
-<control name="illustrations" ifSubset="customScreen:carouselOnly">
+<control name="illustrations" ifSubset="customScreen:carouselOnly|videoOnly|nothing">
 <storyboard>
 <animation property="pos" from="0.5 0.4" to="0.5 0.4" duration="1" mode="EaseOut"/>
 <animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
@@ -282,15 +281,39 @@
 </storyboard>
 </control>
 
-<control name="randomVideo,hud,hudBack" ifSubset="customScreen:carouselOnly">
+<control name="randomVideo,hud,hudBack" ifSubset="customScreen:carouselOnly|videoOnly|nothing">
 <storyboard>
 <animation property="opacity" to="0" duration="1" mode="EaseOut"/>
 <animation property="audio" to="false" duration="1" mode="EaseOut"/>
 </storyboard>
 </control>
 
+<!--Carousel fade-->
 
+<control name="logo" ifSubset="customScreen:videoOnly|nothing">
+<storyboard event="activate">
+<animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
+</storyboard>
+<storyboard event="scroll">
+<animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
+</storyboard>
+</control>
 
+<control name="backCarouselUp,backCarouselDown,backCarouselLeft,backCarouselRight,backCarouselCenter,backCarouselLineUp,backCarouselLineDown,backCarouselLineShadow,backCarouselShadow" ifSubset="customScreen:videoOnly|nothing">
+<storyboard>
+<animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
+</storyboard>
+</control>
+<!---->
+
+<control name="systemInfo,systemText" ifSubset="customScreen:nothing">
+<storyboard>
+<animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
+</storyboard>
+</control>
 
 </view>
 
