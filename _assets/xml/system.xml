@@ -8,7 +8,11 @@
 <sound name="bgsound" ifSubset="customMusic:yes">
 <path>${music.path}${system.theme}.mp3</path>
 <path>${music.path}${system.theme}.ogg</path>
-<path ifSubset="mode:customAudio|customStaticAudio">./_assets/silence.ogg</path>
+</sound>
+
+
+<sound name="bgsound" ifSubset="mode:customAudio|customStaticAudio">
+<path>./_assets/silence.ogg</path>
 </sound>
 
 <video name="staticBackgroundVideo" ifSubset="mode:default|customStatic|customStaticAudio">
@@ -263,6 +267,14 @@
 </video>
 
 <video name="randomVideo" extra="true" ifSubset="cutAudioVideos:yes">
+<audio>false</audio>
+</video>
+
+<video name="randomVideo" extra="true" ifSubset="customScreen:carouselOnly|videoOnly|nothing">
+<audio>false</audio>
+</video>
+
+<video name="randomVideo" extra="true" ifSubset="mode:customAudio|customStaticAudio">
 <audio>false</audio>
 </video>
 
