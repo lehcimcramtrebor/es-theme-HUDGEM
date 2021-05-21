@@ -11,8 +11,8 @@
 <lang.no>no</lang.no>
 <lang.no lang="fr">non</lang.no>
 
-<lang.customScreen>custom mode • display only carousel</lang.customScreen>
-<lang.customScreen lang="fr">mode personnalisé • afficher uniquement le carrousel</lang.customScreen>
+<lang.customScreen>systemview • layout</lang.customScreen>
+<lang.customScreen lang="fr">vue système • mise en page</lang.customScreen>
 
 <lang.customMusic>custom music • activate</lang.customMusic>
 <lang.customMusic lang="fr">musique personnalisée • activer</lang.customMusic>
@@ -23,11 +23,20 @@
 <lang.default>default</lang.default>
 <lang.default lang="fr">par défaut</lang.default>
 
+<lang.carouselOnly>carousel only</lang.carouselOnly>
+<lang.carouselOnly lang="fr">uniquement le carousel</lang.carouselOnly>
+
 <lang.custom>customized</lang.custom>
 <lang.custom lang="fr">customisés</lang.custom>
 
 <lang.customAudio>customized (with audio, cut the music)</lang.customAudio>
 <lang.customAudio lang="fr">customisés et sonorisés (coupe toute musique)</lang.customAudio>
+
+<lang.customStatic>static customized</lang.customStatic>
+<lang.customStatic lang="fr">customisé statique</lang.customStatic>
+
+<lang.customStaticAudio>static customized (with audio, cut the music)</lang.customStaticAudio>
+<lang.customStaticAudio lang="fr">customisé statique sonorisé (coupe toute musique)</lang.customStaticAudio>
 
 <lang.frame>gamelist description and thumbnail • orientation</lang.frame>
 <lang.frame lang="fr">boite et description des listes de jeu • orientation</lang.frame>

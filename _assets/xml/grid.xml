@@ -5,7 +5,7 @@
 	
 <view name="grid">
 
-<video name="BackgroundVideo" extra="true" ifSubset="mode:default|custom|customAudio">
+<video name="BackgroundVideo" extra="true" ifSubset="mode:default|custom|customAudio|customStatic|customStaticAudio">
 <maxSize>99 1</maxSize>
 <pos>0.5 0.5</pos>
 <origin>0.5 0.5</origin>
@@ -23,6 +23,10 @@
 <video name="BackgroundVideo" extra="true" ifSubset="mode:custom|customAudio">
 <path>./_customBackgrounds/default.mp4</path>
 <path>./_customBackgrounds/${system.theme}.mp4</path>
+</video>
+
+<video name="BackgroundVideo" extra="true" ifSubset="mode:customStatic|customStaticAudio">
+<path>./_customBackgrounds/custom.mp4</path>
 </video>
 
 <video name="code" extra="true">

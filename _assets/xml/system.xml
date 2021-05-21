@@ -8,17 +8,19 @@
 <sound name="bgsound" ifSubset="customMusic:yes">
 <path>${music.path}${system.theme}.mp3</path>
 <path>${music.path}${system.theme}.ogg</path>
-<path ifSubset="mode:customAudio">./_assets/silence.ogg</path>
+<path ifSubset="mode:customAudio|customStaticAudio">./_assets/silence.ogg</path>
 </sound>
 
-<video name="staticBackgroundVideo" ifSubset="mode:default">
+<video name="staticBackgroundVideo" ifSubset="mode:default|customStatic|customStaticAudio">
 <maxSize>99 1</maxSize>
 <pos>0.5 0.5</pos>
 <origin>0.5 0.5</origin>
 <path>./_assets/loops/${background}.mp4</path>
+<path ifSubset="mode:customStatic|customStaticAudio">./_customBackgrounds/custom.mp4</path>
 <color>${colorset}bf</color>
 <zIndex>1</zIndex>
 <audio>false</audio>
+<audio ifSubset="mode:customStaticAudio">true</audio>
 </video>
 
 <video name="staticBackgroundVideo" ifSubset="biChrome:yes">
@@ -272,7 +274,7 @@
 </control>
 
 
-<control name="illustrations" ifSubset="customScreen:yes">
+<control name="illustrations" ifSubset="customScreen:carouselOnly">
 <storyboard>
 <animation property="pos" from="0.5 0.4" to="0.5 0.4" duration="1" mode="EaseOut"/>
 <animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
@@ -280,7 +282,7 @@
 </storyboard>
 </control>
 
-<control name="randomVideo,hud,hudBack" ifSubset="customScreen:yes">
+<control name="randomVideo,hud,hudBack" ifSubset="customScreen:carouselOnly">
 <storyboard>
 <animation property="opacity" to="0" duration="1" mode="EaseOut"/>
 <animation property="audio" to="false" duration="1" mode="EaseOut"/>

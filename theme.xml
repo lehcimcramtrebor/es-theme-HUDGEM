@@ -19,11 +19,13 @@ author: Lehcim Cram Trebor
 <include name="default" displayName="${lang.default}"/>
 <include name="custom" displayName="${lang.custom}"/>
 <include name="customAudio" displayName="${lang.customAudio}"/>
+<include name="customStatic" displayName="${lang.customStatic}"/>
+<include name="customStaticAudio" displayName="${lang.customStaticAudio}"/>
 </subset>
 
 <subset name="customScreen" displayName="${lang.customScreen}">
-<include name="no" displayName="${lang.no}"/>
-<include name="yes" displayName="${lang.yes}"/>
+<include name="default" displayName="${lang.default}"/>
+<include name="carouselOnly" displayName="${lang.carouselOnly}"/>
 </subset>
 
 <subset name="colorset" displayName="${lang.colorset}">
