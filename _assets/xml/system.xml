@@ -278,7 +278,7 @@
 <storyboard>
 <animation property="pos" from="0.5 0.4" to="0.5 0.4" duration="1" mode="EaseOut"/>
 <animation property="opacity" to="0" duration="300" mode="EaseOut" begin="1500"/>
-<animation property="offsetY" to="-0.1" duration="300" mode="EaseOut" begin="1500"/>
+<animation property="offsetY" to="-0.4" duration="300" mode="EaseIn" begin="1500"/>
 </storyboard>
 </control>
 
