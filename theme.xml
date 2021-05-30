@@ -40,6 +40,7 @@ author: Lehcim Cram Trebor
 <include name="purple" displayName="${lang.purple}">./_assets/xml/colorset/purple.xml</include>
 <include name="grey" displayName="${lang.grey}">./_assets/xml/colorset/grey.xml</include>
 <include name="darkGrey" displayName="${lang.darkGrey}">./_assets/xml/colorset/darkGrey.xml</include>
+<include name="pistacchio" displayName="${lang.pistacchio}">./_assets/xml/colorset/pistacchio.xml</include>
 <include name="customColorset" displayName="${lang.customColorset}"/>
 </subset>
 
