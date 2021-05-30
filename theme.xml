@@ -35,12 +35,16 @@ author: Lehcim Cram Trebor
 <include name="ocean" displayName="${lang.ocean}">./_assets/xml/colorset/ocean.xml</include>
 <include name="pink" displayName="${lang.pink}">./_assets/xml/colorset/pink.xml</include>
 <include name="yellow" displayName="${lang.yellow}">./_assets/xml/colorset/yellow.xml</include>
+<include name="red" displayName="${lang.red}">./_assets/xml/colorset/red.xml</include>
 <include name="green" displayName="${lang.green}">./_assets/xml/colorset/green.xml</include>
 <include name="orange" displayName="${lang.orange}">./_assets/xml/colorset/orange.xml</include>
 <include name="purple" displayName="${lang.purple}">./_assets/xml/colorset/purple.xml</include>
 <include name="grey" displayName="${lang.grey}">./_assets/xml/colorset/grey.xml</include>
 <include name="darkGrey" displayName="${lang.darkGrey}">./_assets/xml/colorset/darkGrey.xml</include>
 <include name="pistacchio" displayName="${lang.pistacchio}">./_assets/xml/colorset/pistacchio.xml</include>
+<include name="cherry" displayName="${lang.cherry}">./_assets/xml/colorset/cherry.xml</include>
+<include name="eggplant" displayName="${lang.eggplant}">./_assets/xml/colorset/eggplant.xml</include>
+<include name="lemon" displayName="${lang.lemon}">./_assets/xml/colorset/lemon.xml</include>
 <include name="customColorset" displayName="${lang.customColorset}"/>
 </subset>
 
