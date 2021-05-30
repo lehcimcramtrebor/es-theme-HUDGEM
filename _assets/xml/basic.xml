@@ -21,8 +21,8 @@
 </video>
 
 <video name="BackgroundVideo" extra="true" ifSubset="mode:custom|customAudio">
-<path>./_customBackgrounds/default.mp4</path>
-<path>./_customBackgrounds/${system.theme}.mp4</path>
+<path>${backgrounds.path}default.mp4</path>
+<path>${backgrounds.path}${system.theme}.mp4</path>
 </video>
 
 <image name="hud" extra="true">

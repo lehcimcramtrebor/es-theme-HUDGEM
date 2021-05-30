@@ -10,6 +10,11 @@
 <defineDefault region="eu"></defineDefault>
 
 
+<!-- Enter the custom color of your theme, six numbers (no transparency) -->
+
+<colorset>bef574</colorset>
+
+
 <!-- Enter in one line the label you want, for example: <label.custom>Mike's Machine</label.custom> and it will display in bottom right with manufacturers infos -->
 
 
@@ -21,6 +26,12 @@
 
 
 <randomVideo.path>./_customVideos/</randomVideo.path>
+
+
+<!-- Enter the relative path of your custom video backgrounds -->
+
+
+<backgrounds.path>./_customBackgrounds/</backgrounds.path>
 
 
 <!-- Enter the relative path of your custom music -->

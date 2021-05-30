@@ -11,6 +11,10 @@
 <lang.no>no</lang.no>
 <lang.no lang="fr">non</lang.no>
 
+
+<lang.customColorset>custom color</lang.customColorset>
+<lang.customColorset lang="fr">couleur personnalisée</lang.customColorset>
+
 <lang.customScreen>systemview • layout</lang.customScreen>
 <lang.customScreen lang="fr">vue système • mise en page</lang.customScreen>
 
