@@ -79,7 +79,7 @@
 <iconColor>ffffff</iconColor>
 <iconUpDown>./_assets/icons/icon_xbox_updown.png</iconUpDown>
 <iconLeftRight>./_assets/icons/icon_xbox_leftright.png</iconLeftRight>
-<iconUpDownLeftRight>./../_assets/icons/icon_xbox_all.png</iconUpDownLeftRight>
+<iconUpDownLeftRight>./_assets/icons/icon_xbox_all.png</iconUpDownLeftRight>
 <iconA>./_assets/icons/icon_xbox_a.png</iconA>
 <iconB>./_assets/icons/icon_xbox_b.png</iconB>
 <iconX>./_assets/icons/icon_xbox_x.png</iconX>
@@ -94,7 +94,7 @@
 <iconColor>ffffff</iconColor>
 <iconUpDown>./_assets/icons/icon_xboxone_updown.png</iconUpDown>
 <iconLeftRight>./_assets/icons/icon_xboxone_leftright.png</iconLeftRight>
-<iconUpDownLeftRight>./../_assets/icons/icon_xboxone_all.png</iconUpDownLeftRight>
+<iconUpDownLeftRight>./_assets/icons/icon_xboxone_all.png</iconUpDownLeftRight>
 <iconA>./_assets/icons/icon_xboxone_a.png</iconA>
 <iconB>./_assets/icons/icon_xboxone_b.png</iconB>
 <iconX>./_assets/icons/icon_xboxone_x.png</iconX>
