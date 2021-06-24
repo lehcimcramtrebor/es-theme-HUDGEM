@@ -90,7 +90,7 @@
 <iconSelect>./_assets/icons/icon_xbox_select.png</iconSelect>
 </helpsystem>
 
-<helpsystem name="help" ifSubset="helpIcons:xboxoneIcons">
+<helpsystem name="help" ifSubset="helpIcons:xboxOneIcons">
 <iconColor>ffffff</iconColor>
 <iconUpDown>./_assets/icons/icon_xboxone_updown.png</iconUpDown>
 <iconLeftRight>./_assets/icons/icon_xboxone_leftright.png</iconLeftRight>
