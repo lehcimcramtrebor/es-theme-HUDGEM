@@ -14,6 +14,7 @@
 <size>0.065 0.018</size>
 <itemSpacing>0.003</itemSpacing>
 <imagePath>./_assets/gamepad.svg</imagePath>
+<gunPath>./_assets/gun.svg</gunPath>
 <color>121212fc</color>
 <activityColor>12121266</activityColor>
 <hotkeyColor>125012</hotkeyColor>
