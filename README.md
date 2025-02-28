@@ -1,4 +1,5 @@
 # es-theme-HUDGEM
+# no longer maintained
 
 For retrobat 4+ and Batocera V31+
 
